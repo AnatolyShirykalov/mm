@@ -1,8 +1,8 @@
 # Четыре лекции по курсу «Колебания и волны»
 16, 23, 30 октября и 13 ноября.
 
-Скачать pdf можно [тут]()
-
+Скачать pdf можно [тут](https://github.com/AnatolyShirykalov/mm/raw/master/waves/master.pdf).
+.
 # О проекте
 ## Как это собирать на LINUX
 ```bash
