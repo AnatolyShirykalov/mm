@@ -1,0 +1,22 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <line x1="100" y1="210" x2="100" y2="285" arr2="h40"/>
+%  <line x1="65" y1="250" x2="190" y2="250" arr2="h40"/>
+%  <star x="100" y="270"/>
+%  <star x="100" y="230"/>
+%  <line x1="100" y1="230" x2="190" y2="230" li="dash"/>
+%  <curve>100,270 130,275 175,295</curve>
+%  <text x="94" y="270" t="$1$" tex="$1$" h="5"/>
+%  <text x="90" y="230" t="$-1$" tex="$-1$" h="5"/>
+%  <line x1="100" y1="270" x2="190" y2="270" li="dash"/>
+%  <curve>100,270 115,265 120,255 125,230 130,220 140,230 150,275 159,283 170,275 185,230 190,220</curve>
+%  <star x="125" y="230"/>
+%  <star x="140" y="230"/>
+%  <star x="185" y="230"/>
+%  <text x="180" y="255" t="$\alpha l$" tex="$\alpha l$" h="5"/>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+\else
+\fi
+\end{figure}

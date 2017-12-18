@@ -1,0 +1,34 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <line x1="60" y1="173" x2="60" y2="148"/>
+%  <line x1="60" y1="160" x2="120" y2="160"/>
+%  <text x="118" y="154" t="$l$" tex="$l$" h="5"/>
+%  <line x1="120" y1="161" x2="120" y2="159"/>
+%  <line x1="121" y1="164" x2="134" y2="164" arr2="h40"/>
+%  <text x="131" y="167" t="$T$" tex="$T$" h="5"/>
+%  <rect x="57" y="148" w="3" h="25" li="none" ha="4"/>
+%  <text x="60" y="154" t="$0$" tex="$0$" h="5"/>
+%  <text x="49" y="169" t="$u$" tex="$u$" h="5"/>
+%  <line x1="56" y1="165" x2="56" y2="175" arr2="h40"/>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(266.61, 87.87)(0,0)
+  \put(0,0){\includegraphics{parametrical.pdf}}
+  \put(201.26,22.68){\fontsize{14.23}{17.07}\selectfont $l$}
+  \put(238.11,59.53){\fontsize{14.23}{17.07}\selectfont $T$}
+  \put(36.85,22.68){\fontsize{14.23}{17.07}\selectfont $0$}
+  \put(5.67,65.20){\fontsize{14.23}{17.07}\selectfont $u$}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(266.61, 87.87)(0,0)
+  \put(0,0){\includegraphics{parametrical}}
+  \put(201.26,22.68){\fontsize{14.23}{17.07}\selectfont $l$}
+  \put(238.11,59.53){\fontsize{14.23}{17.07}\selectfont $T$}
+  \put(36.85,22.68){\fontsize{14.23}{17.07}\selectfont $0$}
+  \put(5.67,65.20){\fontsize{14.23}{17.07}\selectfont $u$}
+  \end{picture}%
+\fi
+\end{figure}

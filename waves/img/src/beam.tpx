@@ -1,0 +1,31 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <curve>40,150 65,160 100,150 135,140 180,150</curve>
+%  <curve>40,160 65,170 100,160 135,150 180,160</curve>
+%  <curve>45,165 70,175 105,165 140,155 185,165</curve>
+%  <line x1="40" y1="160" x2="45" y2="165"/>
+%  <line x1="40" y1="160" x2="40" y2="150"/>
+%  <line x1="180" y1="160" x2="180" y2="150"/>
+%  <line x1="180" y1="160" x2="185" y2="165"/>
+%  <line x1="180" y1="150" x2="185" y2="155"/>
+%  <line x1="185" y1="165" x2="185" y2="155"/>
+%  <text x="185.6" y="160" t="$h$" tex="$h$" h="5"/>
+%  <text x="182.1" y="148.2" t="$l$" tex="$b$" h="5"/>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(445.32, 111.52)(0,0)
+  \put(0,0){\includegraphics{beam.pdf}}
+  \put(418.39,63.30){\fontsize{14.23}{17.07}\selectfont $h$}
+  \put(408.47,29.85){\fontsize{14.23}{17.07}\selectfont $b$}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(445.32, 111.52)(0,0)
+  \put(0,0){\includegraphics{beam}}
+  \put(418.39,63.30){\fontsize{14.23}{17.07}\selectfont $h$}
+  \put(408.47,29.85){\fontsize{14.23}{17.07}\selectfont $b$}
+  \end{picture}%
+\fi
+\end{figure}

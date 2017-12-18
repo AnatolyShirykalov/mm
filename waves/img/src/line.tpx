@@ -1,0 +1,19 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <polygon>70,170 80,190 130,190 120,170</polygon>
+%  <polyline>70,170 70,165 120,165 130,185 130,190</polyline>
+%  <line x1="120" y1="170" x2="120" y2="165"/>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(181.42, 82.20)(0,0)
+  \put(0,0){\includegraphics{line.pdf}}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(181.42, 82.20)(0,0)
+  \put(0,0){\includegraphics{line}}
+  \end{picture}%
+\fi
+\end{figure}

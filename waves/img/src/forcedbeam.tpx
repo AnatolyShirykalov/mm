@@ -1,0 +1,38 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <rect x="80" y="204" w="9" h="16"/>
+%  <line x1="75" y1="219" x2="75" y2="209" arr1="h40" arr2="h40"/>
+%  <text x="58" y="221" t="$a\cos\omega t$" tex="$\delta = a\cos\omega t$" h="5"/>
+%  <curve>89,214 108,214 116,214 124,216 133,219</curve>
+%  <curve>89,211 108,211 116,211 124,213 133,216</curve>
+%  <line x1="133" y1="219" x2="133" y2="216"/>
+%  <line x1="84" y1="200" x2="84" y2="232" arr2="h40"/>
+%  <line x1="79" y1="200" x2="141" y2="200" arr2="h40"/>
+%  <text x="137" y="194" t="$x$" tex="$x$" h="5"/>
+%  <text x="84" y="233" t="$u$" tex="$u$" h="5"/>
+%  <polygon>75,199 80,200 79,196</polygon>
+%  <polygon li="none" ha="4">73.8,200.3 69,195 74.8,190.3 80,195</polygon>
+%  <line x1="84" y1="213" x2="140" y2="213" arr2="h40"/>
+%  <text x="140" y="212" t="$y$" tex="$y$" h="5"/>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(265.04, 143.49)(0,0)
+  \put(0,0){\includegraphics{forcedbeam.pdf}}
+  \put(5.67,92.69){\fontsize{14.23}{17.07}\selectfont $\delta = a\cos\omega t$}
+  \put(229.61,16.16){\fontsize{14.23}{17.07}\selectfont $x$}
+  \put(79.37,126.71){\fontsize{14.23}{17.07}\selectfont $u$}
+  \put(238.11,67.18){\fontsize{14.23}{17.07}\selectfont $y$}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(265.04, 143.49)(0,0)
+  \put(0,0){\includegraphics{forcedbeam}}
+  \put(5.67,92.69){\fontsize{14.23}{17.07}\selectfont $\delta = a\cos\omega t$}
+  \put(229.61,16.16){\fontsize{14.23}{17.07}\selectfont $x$}
+  \put(79.37,126.71){\fontsize{14.23}{17.07}\selectfont $u$}
+  \put(238.11,67.18){\fontsize{14.23}{17.07}\selectfont $y$}
+  \end{picture}%
+\fi
+\end{figure}

@@ -1,0 +1,92 @@
+\newcommand{\ve}[3][1]{#2_{#1},\ldots,#2_{#3}} % \ve[1] xn |---> (x_1,\ldots, x_n)
+\DeclareMathOperator{\diV}{div}
+\DeclareMathOperator{\codim}{codim}
+%\newgeometry{paper=a5paper,top=22.7mm, bottom=22.7mm,left=22.7mm,right=22.7mm,bindingoffset=3mm,includefoot}
+\newgeometry{paper=a4paper,top=12.7mm, bottom=12.7mm,left=12.7mm,right=12.7mm,bindingoffset=6.6mm,includefoot}
+\newtheorem{The}{Теорема}[section]
+\newtheorem{Ut}{Утверждение}[section]
+\newtheorem{Sl}{Следствие}[section]
+\newtheorem{Task}{Упражнение}[section]
+\newtheorem{Def}{Определение}[section]
+\newtheorem{Lem}{Лемма}[section]
+\newtheorem{Exa}{Пример}[section]
+\newenvironment{Proof}
+       {\par\noindent{\textbf{Доказательство.}}}
+       {\hfill$\scriptstyle\blacksquare$}
+\newenvironment{Solution}
+       {\par\noindent{\textbf{Решение.}}}
+       {\hfill$\scriptstyle\blacksquare$}
+\renewcommand{\emph}[1]{\textbf{#1}}
+\DeclareMathOperator{\Lip}{Lip}
+\DeclareMathOperator{\dom}{dom}
+\DeclareMathOperator{\gr}{gr}
+\DeclareMathOperator{\Vee}{Var}
+\DeclareMathOperator{\sP}{sp}
+\newcommand{\Var}{\Vee}
+\newcommand{\CAP}[3]{\bigcap\limits_{#1=#2}^{#3}}
+\newcommand{\caP}[2]{\bigcap\limits_{#1=#2}^\infty}
+\newcommand{\UN}[3]{\bigcup\limits_{#1=#2}^{#3}}
+\newcommand{\uN}[2]{\bigcup\limits_{#1=#2}^\infty}
+\newcommand{\DUN}[3]{\bigsqcup\limits_{#1=#2}^{#3}}
+\newcommand{\duN}[2]{\bigsqcup\limits_{#1=#2}^\infty}
+\renewcommand{\rY}[2]{\sum\limits_{#1=#2}^\infty}
+\newcommand{\fa}{\forall}
+\newcommand{\Gint}[1]{\int\limits_{#1}}
+\renewcommand{\ve}[1]{\boldsymbol{#1}}
+\newcommand{\w}{\omega}
+\newcommand{\vprod}[3]{\begin{vmatrix}#1_1&#2_1&#3_1\\#1_2&#2_2&#3_2\\#1_3&#2_3&#3_3\end{vmatrix}}
+\newcommand{\matder}[1]{\CP{#1}t + \CP{#1}xv_1+\CP{#1}yv_2+\CP{#1}zv_3}
+\newcommand{\dl}{\partial}
+\newcommand{\DP}[2]{\frac{d#1}{d#2}}
+\pagestyle{plain}
+\renewcommand{\Re}{\mathrm{\mathop{Re}}}
+\renewcommand{\Im}{\mathop{\mathrm{Im}}}
+
+\newcommand{\E}{\Sigma}
+\newcommand{\Aim}{\mathcal A}
+\newcommand{\F}{\mathbb F}
+\renewcommand{\L}{\mathcal L}
+\newcommand{\BV}{\mathop{BV}}
+\newcommand{\I}[3][\mu]{\int\limits_{#2}#3\,d#1}
+\renewcommand{\ul}{\underline}
+\renewcommand{\a}{\alpha}
+\renewcommand{\b}{\beta}
+\renewcommand{\d}{\delta}
+\newcommand{\g}{\gamma}
+\renewcommand{\l}{\lambda}
+\newcommand{\B}{\mathcal B}
+\newcommand{\sdd}{\mathop{\triangle}}
+
+\newcommand{\tds}{\times\dots\times}
+\newcommand{\ods}{\otimes\dots\otimes}
+
+\newcommand{\la}{\langle}
+
+\newcommand{\ra}{\rangle}
+\makeatletter
+\declare@shorthand{british}{<<}{\langle}
+\declare@shorthand{russian}{>>}{\rangle}
+\makeatother
+\newcommand{\spp}{\Subset}
+\newcommand{\D}{\mathcal D}
+\newcommand{\Lloc}{\L_{\mathrm{loc}}}
+\renewcommand{\k}{\varkappa}
+\newcommand{\Fu}{\mathcal F}
+\newcommand{\W}{\Omega}
+\newcommand{\K}{\mathcal K}
+\DeclareMathOperator{\SP}{\mathrm{\mathop{sp}}}
+\newcommand{\FF}{\mathcal F}
+\renewcommand{\sp}{\SP}
+\newcommand{\HH}{\mathcal H}
+\newcommand{\AC}{\mathrm{AC}}
+\usepackage{scalerel,stackengine}
+\stackMath
+\renewcommand\widehat[1]{%
+\savestack{\tmpbox}{\stretchto{%
+  \scaleto{%
+    \scalerel*[\widthof{\ensuremath{#1}}]{\kern-.6pt\bigwedge\kern-.6pt}%
+    {\rule[-\textheight/2]{1ex}{\textheight}}%WIDTH-LIMITED BIG WEDGE
+  }{\textheight}% 
+}{0.5ex}}%
+\stackon[1pt]{#1}{\tmpbox}%
+}

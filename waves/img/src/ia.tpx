@@ -1,0 +1,20 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <circle x="45" y="180" d="92.1954"/>
+%  <text x="40" y="175" t="$\frac12$" tex="$\frac12$" h="5"/>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(272.68, 272.68)(0,0)
+  \put(0,0){\includegraphics{ia.pdf}}
+  \put(122.17,122.17){\fontsize{14.23}{17.07}\selectfont $\frac12$}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(272.68, 272.68)(0,0)
+  \put(0,0){\includegraphics{ia}}
+  \put(122.17,122.17){\fontsize{14.23}{17.07}\selectfont $\frac12$}
+  \end{picture}%
+\fi
+\end{figure}

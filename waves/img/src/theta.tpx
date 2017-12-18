@@ -1,0 +1,36 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <sector x="100" y="110" d="117.661" a1="1.0158" a2="2.12017"/>
+%  <arc x="100" y="110" d="117.661" a1="1.0158" a2="2.11122" lw="2.00"/>
+%  <line x1="69" y1="160" x2="90" y2="170" arr2="h40"/>
+%  <text x="81" y="171" t="$\theta$" tex="$\theta(x)$" h="5"/>
+%  <arc x="100" y="110" d="34.9857" a1="1.03038" a2="2.06075"/>
+%  <text x="93" y="129" t="$\alpha$" tex="$\alpha$" h="5"/>
+%  <text x="135" y="160" t="$\theta(x + dx)$" tex="$\theta(x + dx)$" h="5"/>
+%  <line x1="131" y1="160" x2="149" y2="151" arr2="h40"/>
+%  <line x1="113" y1="149" x2="113" y2="161" arr2="h40"/>
+%  <text x="115" y="156" t="$u$" tex="$u$" h="5"/>
+%  <line x1="76" y1="148" x2="121" y2="143"/>
+%  <line x1="69" y1="160" x2="128" y2="154"/>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(289.87, 195.36)(0,0)
+  \put(0,0){\includegraphics{theta.pdf}}
+  \put(39.69,178.58){\fontsize{14.23}{17.07}\selectfont $\theta(x)$}
+  \put(73.70,59.53){\fontsize{14.23}{17.07}\selectfont $\alpha$}
+  \put(192.76,147.40){\fontsize{14.23}{17.07}\selectfont $\theta(x + dx)$}
+  \put(136.06,136.06){\fontsize{14.23}{17.07}\selectfont $u$}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(289.87, 195.36)(0,0)
+  \put(0,0){\includegraphics{theta}}
+  \put(39.69,178.58){\fontsize{14.23}{17.07}\selectfont $\theta(x)$}
+  \put(73.70,59.53){\fontsize{14.23}{17.07}\selectfont $\alpha$}
+  \put(192.76,147.40){\fontsize{14.23}{17.07}\selectfont $\theta(x + dx)$}
+  \put(136.06,136.06){\fontsize{14.23}{17.07}\selectfont $u$}
+  \end{picture}%
+\fi
+\end{figure}

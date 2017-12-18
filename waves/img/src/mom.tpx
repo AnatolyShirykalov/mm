@@ -1,0 +1,39 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <arc x="90" y="100" d="116.619" a1="1.03038" a2="2.11122"/>
+%  <arc x="90" y="100" d="147.648" a1="1.07685" a2="2.06474"/>
+%  <line x1="55" y1="165" x2="60" y2="150"/>
+%  <line x1="120" y1="150" x2="125" y2="165"/>
+%  <line x1="125" y1="162" x2="125" y2="180" arr2="h40"/>
+%  <text x="126" y="179" t="$Q(x+dx)$" tex="$Q(x+dx)$" h="5"/>
+%  <text x="135" y="163" t="$M(x+dx)$" tex="$M(x+dx)$" h="5"/>
+%  <arc arr1="h40" x="128" y="158" d="14.1421" a1="0.141897" a2="1.71269"/>
+%  <text x="93" y="160" t="$dx$" tex="$dx$" h="5"/>
+%  <line x1="59" y1="153" x2="59" y2="137" arr2="h40"/>
+%  <text x="60" y="139" t="$\theta(x)$" tex="$Q(x)$" h="5"/>
+%  <text x="45.9" y="148.2" t="$M(x)$" tex="$M(x)$" h="5"/>
+%  <arc arr2="h40" x="57.0355" y="153.036" d="14.1421" a1="1.71269" a2="3.28349"/>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(329.37, 141.51)(0,0)
+  \put(0,0){\includegraphics{mom.pdf}}
+  \put(232.72,124.72){\fontsize{14.23}{17.07}\selectfont $Q(x+dx)$}
+  \put(258.24,79.37){\fontsize{14.23}{17.07}\selectfont $M(x+dx)$}
+  \put(139.18,70.87){\fontsize{14.23}{17.07}\selectfont $dx$}
+  \put(45.64,11.34){\fontsize{14.23}{17.07}\selectfont $Q(x)$}
+  \put(5.67,37.42){\fontsize{14.23}{17.07}\selectfont $M(x)$}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(329.37, 141.51)(0,0)
+  \put(0,0){\includegraphics{mom}}
+  \put(232.72,124.72){\fontsize{14.23}{17.07}\selectfont $Q(x+dx)$}
+  \put(258.24,79.37){\fontsize{14.23}{17.07}\selectfont $M(x+dx)$}
+  \put(139.18,70.87){\fontsize{14.23}{17.07}\selectfont $dx$}
+  \put(45.64,11.34){\fontsize{14.23}{17.07}\selectfont $Q(x)$}
+  \put(5.67,37.42){\fontsize{14.23}{17.07}\selectfont $M(x)$}
+  \end{picture}%
+\fi
+\end{figure}

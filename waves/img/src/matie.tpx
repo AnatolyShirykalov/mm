@@ -1,0 +1,28 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <line x1="40" y1="120" x2="40" y2="185" arr2="h40"/>
+%  <line x1="30" y1="130" x2="135" y2="130" arr2="h40"/>
+%  <text x="45" y="185" t="$\e$" tex="$\e$" h="5"/>
+%  <text x="135" y="125" t="$\omega$" tex="$\omega$" h="5"/>
+%  <line x1="60" y1="132" x2="60" y2="128"/>
+%  <line x1="80.1" y1="132" x2="80.1" y2="128"/>
+%  <line x1="100.1" y1="132" x2="100.1" y2="128"/>
+%  <line x1="120.1" y1="132" x2="120.1" y2="128"/>
+%  <text x="58.4" y="121.8" t="$1$" tex="$1$" h="5"/>
+%  <text x="78.4" y="122" t="$2$" tex="$2$" h="5"/>
+%  <text x="98" y="122" t="$3$" tex="$3$" h="5"/>
+%  <text x="118" y="123" t="$4$" tex="$4$" h="5"/>
+%  <sector x="60" y="130" d="54" a1="1.5708" a2="2.05331" li="none" ha="3"/>
+%  <curve>60,133 61,145 60,165</curve>
+%  <curve>60,130 55,139 50,147 42,156</curve>
+%  <curve>80,130 80,151 73,169</curve>
+%  <curve>80,130 77,152 67,169</curve>
+%  <polygon li="none" ha="3">69,167.5 72,167.5 75,163.5 77,158.5 79,152.5 80,145.5 79,148.5 76,155.5 73,162.5</polygon>
+%  <curve>100,130 99,148 94,172 93,174</curve>
+%  <curve>100,130 100.6,148 95.6,172 94.6,174</curve>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+\else
+\fi
+\end{figure}

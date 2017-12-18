@@ -1,0 +1,64 @@
+\begin{center}
+  Shirykalov Anatoly 622
+\end{center}
+\newcommand{\eexp}[1][]{\exp\big[i(\omega#1 t - \boldsymbol\kappa\cdot \boldsymbol r)\big]}
+\section{Lighthill's General Theory of Water Waves}
+Consider a plane wave solution of the next form
+\[
+  q = a \eexp,
+\]
+where $a, \omega, \boldsymbol = (k, l)$ are arbitrary and $\boldsymbol r = (x,y)$. We suppose that on some bounding plane we have the following
+\[
+  \eta = a D(\omega, \boldsymbol\kappa)\eexp,
+\]
+where $\eta$ is a certain boundary value.
+
+Here $D(\omega, \boldsymbol \kappa) = 0$ is the dispersion relation for the undisturbed dispersive wave system  which is idefined by the boundary condition $\eta = 0$.
+
+Let $S$ be a solution of the $D(\omega, \boldsymbol\kappa) = 0$ in the $(k,l)$ plane. It is a wavenumber curve.
+
+We consider forcing by the harmonically oscillating bounday disrubance of the form
+\[
+  \eta = e^{i \omega_0 t}f(\boldsymbol r) = \iint\limits_{-\infty}^{\infty}
+  F(\boldsymbol\kappa) \eexp[_0]\,d\boldsymbol\kappa.
+\]
+
+The solution $q$ can be written as
+\begin{equation}\label{3.6.5}
+  q(\boldsymbol r, t) = \iint\limits_{-\infty}^\infty \frac{F(\boldsymbol\kappa)}{D(\omega_0, \boldsymbol\kappa)}\eexp[_0]\,d\boldsymbol\kappa.
+\end{equation}
+
+This integral is divergent when the integrant has real polar singularities on the path of integration.
+
+Lighthill's method replaces $\omega_0$ by $\omega_0-i\varepsilon$ (so $\exp(i\omega_0 t)$ is replaced by $\exp(\varepsilon t + i\omega_0 t)$) and supposes that $\e$ tends to zero.
+
+Let L be an arbitrary straight line, stretching out from the source region. Let us find the asymtotic behavior of \eqref{3.6.5} in the far field from the source region along L.
+
+At first we make a rotation of axes such that L becomes the positive x-axis. We seek the asymptotic approximation as $x\to \infty$ with $y=0$ of \eqref{3.6.5}, which becomes
+\begin{equation}\label{3.6.7}
+  q = e^{i\omega_0 t}\int\limits_{-\infty}^{\infty} dl \int\limits_{-\infty}^\infty \frac{F(k,l)}{D(\omega_0, k, l)} e^{-i k x}\,dk.
+\end{equation}
+
+Let $S_+$ be a part of the wavenumber curve $S$ on which $\frac{\partial \omega}{\partial k} > 0$. The outer integral in \eqref{3.6.7} can be considered as an integral over $S_+$.
+\[
+  q = -2\pi i e^{i\omega_0 t}\int\limits_{S_+} F(k,l)\left[\frac{\partial D}{\partial k}\right]^{-1} \exp(-i k x)\,dl.
+\]
+
+And now we use the one-dimensional stationary phase method to evaluate this integral asymptotically for large $x$.
+
+Let $(k_1,l_1)$ be a point of $S_+$ where $\frac{dk}{dl}=0$. Then near $\boldsymbol \kappa_1 = (k_1,l_1)$ we have
+\[
+  k = k_1 + \frac12 \left(\frac{d^2k}{dl^2}\right)(l-l_1)^2 + O\big(|l-l_1|^3\big)
+\]
+and
+\[
+  q\sim -2\pi i e^{i\omega_0 t} F(\boldsymbol \kappa_1)\left[\left( \frac{\partial D}{\partial k} \right)_{\boldsymbol \kappa_1}\right]^{-1} e^{i k_1 x} \times
+  \sqrt{2\pi} \left[x\left|\frac{d^2k}{dl^2}\right|_{\boldsymbol\kappa_1}\right]^{-\frac12} \exp\left[\frac{\pi i}4\sgn K_1\right],
+\]
+where $K_1 = \left|\frac{d^2k}{dl^2}\right|_{\boldsymbol\kappa_1} \ne 0$.
+
+The result $\frac{\partial \omega}{\partial k} > 0$ for $S_+$ shows that $L$ must be in the direction of the normal $\boldsymbol n$ to $S$. Hence, $\frac{\partial D}{\partial k_1}$ can be replaced by $\frac{\partial D}{\partial n}$. Let $\theta$ be $-\frac\pi4$ or $-\frac{3\pi}4$ according as $S$ in convex or concave to the direction $L$. With these notations we have
+\[
+  q = F(\boldsymbol \kappa_1)\left[\left( \frac{\partial D}{\partial n} \right)_{\boldsymbol\kappa_1}\right]^{-1}
+  \frac{(2\pi)^{\frac32}}{\sqrt{r|K_1|}}\exp\big[i(\omega_0t - \boldsymbol\kappa_1\cdot \boldsymbol r + \theta)\big].
+\]

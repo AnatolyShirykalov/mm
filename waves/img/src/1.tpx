@@ -1,0 +1,40 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <line x1="40" y1="140" x2="120" y2="140"/>
+%  <star x="40" y="140"/>
+%  <star x="120" y="140"/>
+%  <line x1="40" y1="140" x2="40" y2="155" arr2="h40"/>
+%  <text x="33.5" y="151.2" t="$u$" tex="$u$" h="5"/>
+%  <text x="37.7" y="132.1" t="$u(0)=0$" tex="$u(0)=0$" h="5"/>
+%  <text x="33.2" y="138.8" t="$O$" tex="$O$" h="5"/>
+%  <text x="145" y="140" t="$x$" tex="$x$" h="5"/>
+%  <line x1="80" y1="140" x2="145" y2="140" arr2="h40"/>
+%  <text x="115" y="132.1" t="$u(l)=0$" tex="$u(l)=0$" h="5"/>
+%  <text x="120" y="145" t="$l$" tex="$l$" h="5"/>
+%  <curve>40,140 60,150 80,140 85,125 90,135 100,145 105,155 110,150 120,140</curve>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(349.51, 96.97)(0,0)
+  \put(0,0){\includegraphics{1.pdf}}
+  \put(6.52,80.19){\fontsize{14.23}{17.07}\selectfont $u$}
+  \put(18.43,26.05){\fontsize{14.23}{17.07}\selectfont $u(0)=0$}
+  \put(5.67,45.04){\fontsize{14.23}{17.07}\selectfont $O$}
+  \put(322.58,48.44){\fontsize{14.23}{17.07}\selectfont $x$}
+  \put(237.54,26.05){\fontsize{14.23}{17.07}\selectfont $u(l)=0$}
+  \put(251.72,62.62){\fontsize{14.23}{17.07}\selectfont $l$}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(349.51, 96.97)(0,0)
+  \put(0,0){\includegraphics{1}}
+  \put(6.52,80.19){\fontsize{14.23}{17.07}\selectfont $u$}
+  \put(18.43,26.05){\fontsize{14.23}{17.07}\selectfont $u(0)=0$}
+  \put(5.67,45.04){\fontsize{14.23}{17.07}\selectfont $O$}
+  \put(322.58,48.44){\fontsize{14.23}{17.07}\selectfont $x$}
+  \put(237.54,26.05){\fontsize{14.23}{17.07}\selectfont $u(l)=0$}
+  \put(251.72,62.62){\fontsize{14.23}{17.07}\selectfont $l$}
+  \end{picture}%
+\fi
+\end{figure}

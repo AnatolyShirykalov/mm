@@ -1,0 +1,47 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <sector x="90" y="110" d="126.491" a1="1.24905" a2="1.89255"/>
+%  <sector x="90" y="110" d="158.114" a1="1.24905" a2="1.89255"/>
+%  <line x1="65" y1="185" x2="70" y2="170" lw="2.00"/>
+%  <line x1="110" y1="170" x2="115" y2="185" lw="2.00"/>
+%  <arc x="90" y="110" d="158.114" a1="1.24905" a2="1.89255" lw="2.00"/>
+%  <arc x="90" y="110" d="126.491" a1="1.24905" a2="1.89255" lw="2.00"/>
+%  <text x="60" y="175" t="$h$" tex="$h$" h="5"/>
+%  <text x="85" y="195" t="$\xi$" tex="$\xi$" h="5"/>
+%  <line x1="85" y1="180" x2="85" y2="195" arr2="h40"/>
+%  <text x="70" y="145" t="$R$" tex="$R$" h="5"/>
+%  <text x="115" y="175" t="$b$" tex="$b$" h="5"/>
+%  <arc x="90" y="110" d="41.2311" a1="1.32582" a2="1.81578"/>
+%  <text x="86.5" y="133.8" t="$\alpha$" tex="$\alpha$" h="5"/>
+%  <curve arr2="h40">115,195 120,195 125,185</curve>
+%  <text x="125" y="190" t="$M$" tex="$M$" h="5"/>
+%  <line x1="112" y1="176" x2="128" y2="171" arr2="h40"/>
+%  <text x="123" y="166" t="$dF$" tex="$dF$" h="5"/>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(222.36, 263.40)(0,0)
+  \put(0,0){\includegraphics{piece.pdf}}
+  \put(5.67,189.92){\fontsize{14.23}{17.07}\selectfont $h$}
+  \put(76.54,246.61){\fontsize{14.23}{17.07}\selectfont $\xi$}
+  \put(34.02,104.88){\fontsize{14.23}{17.07}\selectfont $R$}
+  \put(161.57,189.92){\fontsize{14.23}{17.07}\selectfont $b$}
+  \put(80.79,73.13){\fontsize{14.23}{17.07}\selectfont $\alpha$}
+  \put(189.92,232.44){\fontsize{14.23}{17.07}\selectfont $M$}
+  \put(184.25,164.41){\fontsize{14.23}{17.07}\selectfont $dF$}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(222.36, 263.40)(0,0)
+  \put(0,0){\includegraphics{piece}}
+  \put(5.67,189.92){\fontsize{14.23}{17.07}\selectfont $h$}
+  \put(76.54,246.61){\fontsize{14.23}{17.07}\selectfont $\xi$}
+  \put(34.02,104.88){\fontsize{14.23}{17.07}\selectfont $R$}
+  \put(161.57,189.92){\fontsize{14.23}{17.07}\selectfont $b$}
+  \put(80.79,73.13){\fontsize{14.23}{17.07}\selectfont $\alpha$}
+  \put(189.92,232.44){\fontsize{14.23}{17.07}\selectfont $M$}
+  \put(184.25,164.41){\fontsize{14.23}{17.07}\selectfont $dF$}
+  \end{picture}%
+\fi
+\end{figure}

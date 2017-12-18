@@ -1,0 +1,23 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <line x1="60" y1="140" x2="130" y2="140"/>
+%  <arc x="95" y="100" d="106.301" a1="0.851966" a2="2.28963"/>
+%  <arc x="95" y="179.951" d="106.301" a1="3.99356" a2="5.43122"/>
+%  <arc x="95" y="60" d="174.642" a1="1.15839" a2="1.97834"/>
+%  <arc x="95.3898" y="219.921" d="174.643" a1="4.29998" a2="5.11993"/>
+%  <star x="60" y="140"/>
+%  <star x="130" y="140"/>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(215.43, 86.03)(0,0)
+  \put(0,0){\includegraphics{2.pdf}}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(215.43, 86.03)(0,0)
+  \put(0,0){\includegraphics{2}}
+  \end{picture}%
+\fi
+\end{figure}

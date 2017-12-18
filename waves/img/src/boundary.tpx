@@ -1,0 +1,33 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <line x1="100" y1="250" x2="100" y2="200"/>
+%  <rect x="95" y="200" w="5" h="50" li="none" ha="3"/>
+%  <line x1="100" y1="240" x2="105" y2="240"/>
+%  <line x1="100" y1="235" x2="105" y2="235"/>
+%  <curve>100,237 111,237 133,240 150,246</curve>
+%  <line x1="100" y1="237" x2="164" y2="237" arr2="h40"/>
+%  <text x="149" y="232" t="$l$" tex="$l$" h="5"/>
+%  <text x="161" y="232" t="$x$" tex="$x$" h="5"/>
+%  <line x1="152" y1="238" x2="152" y2="236"/>
+%  <line x1="92" y1="243" x2="92" y2="252" arr2="h40"/>
+%  <text x="86" y="250" t="$u$" tex="$u$" h="5"/>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(245.20, 164.18)(0,0)
+  \put(0,0){\includegraphics{boundary.pdf}}
+  \put(184.25,96.38){\fontsize{14.23}{17.07}\selectfont $l$}
+  \put(218.27,96.38){\fontsize{14.23}{17.07}\selectfont $x$}
+  \put(5.67,147.40){\fontsize{14.23}{17.07}\selectfont $u$}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(245.20, 164.18)(0,0)
+  \put(0,0){\includegraphics{boundary}}
+  \put(184.25,96.38){\fontsize{14.23}{17.07}\selectfont $l$}
+  \put(218.27,96.38){\fontsize{14.23}{17.07}\selectfont $x$}
+  \put(5.67,147.40){\fontsize{14.23}{17.07}\selectfont $u$}
+  \end{picture}%
+\fi
+\end{figure}

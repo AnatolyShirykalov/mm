@@ -1,0 +1,28 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <line x1="100" y1="284.339" x2="100" y2="325.661"/>
+%  <line x1="82.376" y1="300" x2="152.624" y2="300"/>
+%  <curve>100,300 108,300 115,300 145,310</curve>
+%  <text x="115" y="320" t="I" h="5"/>
+%  <line x1="100" y1="239.339" x2="100" y2="280.661"/>
+%  <line x1="82.376" y1="255" x2="152.624" y2="255"/>
+%  <curve>100,255 108,255 111.395,254.871 115,255 130.714,257.858 142,255 145,255 147,255</curve>
+%  <line x1="100" y1="189.339" x2="100" y2="230.661"/>
+%  <line x1="82.376" y1="205" x2="152.624" y2="205"/>
+%  <curve>100,205 108,205 111.395,204.871 115,205 130.714,207.858 142,203 146,204 147,205</curve>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(210.47, 397.76)(0,0)
+  \put(0,0){\includegraphics{3modes.pdf}}
+  \put(98.15,376.05){\fontsize{14.23}{17.07}\selectfont I}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(210.47, 397.76)(0,0)
+  \put(0,0){\includegraphics{3modes}}
+  \put(98.15,376.05){\fontsize{14.23}{17.07}\selectfont I}
+  \end{picture}%
+\fi
+\end{figure}

@@ -1,0 +1,44 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <line x1="70" y1="188" x2="70" y2="235" arr2="h40"/>
+%  <line x1="64" y1="200" x2="146" y2="200" arr2="h40"/>
+%  <text x="87" y="192.8" t="$\omega_1$" tex="$\omega_1$" h="5"/>
+%  <text x="107" y="193" t="$\omega_2$" tex="$\omega_2$" h="5"/>
+%  <text x="126" y="193" t="$\omega_3$" tex="$\omega_3$" h="5"/>
+%  <line x1="90" y1="201" x2="90" y2="199"/>
+%  <line x1="111" y1="201" x2="111" y2="199"/>
+%  <line x1="129" y1="201" x2="129" y2="199"/>
+%  <text x="143" y="202" t="$\omega$" tex="$\omega$" h="5"/>
+%  <line x1="90" y1="200" x2="90" y2="234" li="dash"/>
+%  <line x1="111" y1="200" x2="111" y2="234" li="dash"/>
+%  <line x1="129" y1="200" x2="129" y2="234" li="dash"/>
+%  <curve>70,203 78,208 87,229 88,235</curve>
+%  <curve>91,232 91,225 96,210 100,208 106,214 108.048,222.785 109,233</curve>
+%  <curve>112.856,231.204 112.856,225.419 116.988,213.022 120.294,211.369 125.252,216.328 126.945,223.589 127.732,232.031</curve>
+%  <curve>148,203 140,208 131,229 130,235</curve>
+%  <text x="61" y="233" t="$A$" tex="$A$" h="5"/>
+%  <curve>70,202 76,203 81,207 85,213 88,217 90,218 91,217 92,213 96,208 101,205 105,207 108,212 109,215 111,216 112,216 114,215 115,210 117,207 123,207 126,212 128,215 129,215 131,215 133,213 139,207 142,204</curve>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(299.68, 150.01)(0,0)
+  \put(0,0){\includegraphics{forcedomega.pdf}}
+  \put(79.37,19.28){\fontsize{14.23}{17.07}\selectfont $\omega_1$}
+  \put(136.06,19.84){\fontsize{14.23}{17.07}\selectfont $\omega_2$}
+  \put(189.92,19.84){\fontsize{14.23}{17.07}\selectfont $\omega_3$}
+  \put(238.11,45.35){\fontsize{14.23}{17.07}\selectfont $\omega$}
+  \put(5.67,133.23){\fontsize{14.23}{17.07}\selectfont $A$}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(299.68, 150.01)(0,0)
+  \put(0,0){\includegraphics{forcedomega}}
+  \put(79.37,19.28){\fontsize{14.23}{17.07}\selectfont $\omega_1$}
+  \put(136.06,19.84){\fontsize{14.23}{17.07}\selectfont $\omega_2$}
+  \put(189.92,19.84){\fontsize{14.23}{17.07}\selectfont $\omega_3$}
+  \put(238.11,45.35){\fontsize{14.23}{17.07}\selectfont $\omega$}
+  \put(5.67,133.23){\fontsize{14.23}{17.07}\selectfont $A$}
+  \end{picture}%
+\fi
+\end{figure}

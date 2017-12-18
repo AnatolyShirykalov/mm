@@ -1,0 +1,37 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3">
+%  <line x1="60" y1="120" x2="175" y2="120" arr2="h40"/>
+%  <line x1="70" y1="110" x2="70" y2="185" arr2="h40"/>
+%  <text x="75" y="185" t="$A$" tex="$A$" h="5"/>
+%  <text x="170" y="110" t="$\omega$" tex="$\omega$" h="5"/>
+%  <text x="65" y="115" t="$0$" tex="$0$" h="5"/>
+%  <text x="100" y="110" t="$1$" tex="$1$" h="5"/>
+%  <line x1="100" y1="123" x2="100" y2="118"/>
+%  <line x1="100" y1="180" x2="100" y2="120" li="dash"/>
+%  <curve>69.2,130 89.2,140 98.2,165 99.2,190</curve>
+%  <line x1="100" y1="190" x2="100" y2="190"/>
+%  <line x1="100" y1="190" x2="100" y2="190"/>
+%  <curve>100.4,187 102.4,168 108.4,151 138.4,137 172.4,131</curve>
+%  <curve>70,127 85,132 92,139 97,150 99,158 100,159 102,158 105,153 110,145 125,136 142,133 157,131 174,129</curve>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(379.05, 241.17)(0,0)
+  \put(0,0){\includegraphics{omegaa.pdf}}
+  \put(48.19,221.33){\fontsize{14.23}{17.07}\selectfont $A$}
+  \put(317.48,8.73){\fontsize{14.23}{17.07}\selectfont $\omega$}
+  \put(19.84,22.90){\fontsize{14.23}{17.07}\selectfont $0$}
+  \put(119.06,8.73){\fontsize{14.23}{17.07}\selectfont $1$}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(379.05, 241.17)(0,0)
+  \put(0,0){\includegraphics{omegaa}}
+  \put(48.19,221.33){\fontsize{14.23}{17.07}\selectfont $A$}
+  \put(317.48,8.73){\fontsize{14.23}{17.07}\selectfont $\omega$}
+  \put(19.84,22.90){\fontsize{14.23}{17.07}\selectfont $0$}
+  \put(119.06,8.73){\fontsize{14.23}{17.07}\selectfont $1$}
+  \end{picture}%
+\fi
+\end{figure}

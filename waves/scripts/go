@@ -1,0 +1,50 @@
+curdir=$(pwd)
+objects=(books addons)
+function compile {
+  addondir='data/addons'
+  addontex='data/addons.tex'
+  cd img/src
+  echo "Preparing tpx-pictures"
+  for fnWithExtension in *.tpx; do
+    fn=$(echo $fnWithExtension | sed -e 's/.tpx//g')
+    begin=$(grep -n "ifpdf" $fn.tpx | sed -e 's/:.\+$//g')
+    end=$(grep -n "else" $fn.tpx | sed -e 's/:.\+$//g')
+    head -n $(($end-1)) $fn.tpx | tail -n $((end-begin-1)) \
+      | sed -e "s/$fn.pdf/img\/src\/$fn.pdf/g" >../out/$fn.tex
+  done
+  cd $curdir
+  echo "done"
+  pdflatex *.tex
+}
+function show {
+  if [ -z "$1" ]; then
+    echo Usage:
+    echo "go show [objects]"
+    echo
+    echo Available objects:
+    for obj in $objects; do
+      echo "  $obj"
+    done
+  else
+    if [[ "$1" == "books" ]]; then
+      grep --color=auto -n bibitem <data/bib.tex
+    else
+      if [[ "$1" == "addons" ]]; then
+        for fn in data/addons/*.tex; do
+          echo $fn
+          sed -e 's/^/  /' <$fn | \
+            grep --color=auto -n 'subsection\|section'
+        done
+      else
+        echo Script is not ready to show you all $1
+      fi
+    fi
+  fi
+}
+if [ -z "$1" ]; then
+  compile
+else
+  if [[ "$1" == "show" ]]; then
+    show $2
+  fi
+fi
